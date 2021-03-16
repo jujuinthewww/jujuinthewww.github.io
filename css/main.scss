@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body,
+html {
+    min-height:100%; 
+}
+
+
+body {
+    height: 100vh;
+    margin: 0; 
+    font-family: 'Merriweather', Arial;
+    background-image: url(../pictures/watercolor3.jpg) ; 
+    background-size: cover ; 
+    background-repeat: no-repeat;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+img {width: 100%}
+
+.social-header {
+    display: none ;
+    justify-content: center;
+    position: absolute; 
+    padding-top: 3em ; 
+    
+    
+
+        ul {
+            
+            
+            display: flex; 
+            justify-content: space-between;
+            width: 16em  ;
+            
+            
+            img {
+                width: 35px  ;
+            
+                
+            }
+        }
+    
+
+}
+
+.message {
+    display: block ; 
+        justify-content: center;
+        
+    
+            img {
+                width: 180px ; 
+            }
+}
+
+.hero {
+    color: #707070 ; 
+    display: grid ; 
+    text-align: center; 
+    padding: 4em; 
+
+    
+}
+
+.ProfilePicture {
+  
+  width: 40% ;
+  height: 30% ;  
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 12% ;
+    
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    body {
+            background-size: cover; 
+            background-blend-mode: darken;
+            background: rgba(0, 0, 0, 0.4) url(../pictures/watercolor3.jpg) ; 
+
+
+
+    }
+.hero {
+    height: 90vh; 
+    position: relative;
+    color: #E2E9EB; 
+    display: flex; 
+    vertical-align: middle;
+    text-align: right; 
+    align-items: center ; 
+    justify-content: center;
+    
+
+    .me {
+        float: right;
+        width: calc(100% - 25em);
+        height: 1em;
+        content: '';
+    }
+
+    
+    
+    .social-header {
+        display: block ;
+        justify-content: center;
+        position: absolute; 
+        
+        
+       
+    
+        ul {
+            
+            justify-content: space-between;
+            width: 29em ; 
+            display: flex; 
+            
+            img {
+                width: 35px  ;
+                
+            }
+        }
+    }
+
+    .message{
+        display: block ; 
+        justify-content: center;
+        
+    
+            img {
+                width: 180px ; 
+            }
+    }
+    
+}
+
+.ProfilePicture {
+  
+    width: 18% ; 
+    display: flex;
+    position: absolute; 
+    margin-left: 20%;
+    margin-top: 20% ;
+      
+  }
+
+
+
+
+
+
+
+}
+
+
